@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    font-family: "Helvetica";
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+a {
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(30, 30, 30);
+    font-size: 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -9,7 +57,11 @@
 
 .recept {
     border-top: 1px solid gray;
-    padding-top: 20px;
+    padding-top: 36px;
+}
+
+li {
+    margin-top: 15px;
 }
 
 #Bereiding {
@@ -17,7 +69,11 @@
 }
 
 #tip {
-    background-color: #e0f6ed;
-    padding: 10px;
-    margin-top: 20px;
+    background-color: #def6ed;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#tip a {
+    font-size: 16px;
 }
